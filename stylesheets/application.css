@@ -14,7 +14,7 @@ div.container {
 }
 
 span.bold {
-  color: #6e5baa;
+  color: #FF851B;
   font-weight: bold;
 }
 
@@ -42,7 +42,7 @@ div.sponsors {
 
 a {
   text-decoration: none;
-  color: #6e5baa;
+  color: #FF851B;
 }
 
 a:hover {
@@ -56,11 +56,11 @@ p.intro {
 h1.title {
   color: #808080;
   padding-bottom: 20px;
-  border-bottom: 2px solid #6e5baa;
+  border-bottom: 2px solid #FF851B;
 }
 
 footer {
   margin-top: 20px;
   padding-top: 20px;
-  border-top: 2px solid #6e5baa;
+  border-top: 2px solid #FF851B;
 }
