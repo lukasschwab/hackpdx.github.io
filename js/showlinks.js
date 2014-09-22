@@ -1,0 +1,2 @@
+// This Javascript functionality originally by Colby Aley (www.github.com/ColbyAley). I should learn JS.
+function toggleExtra(){var e=document.getElementsByClassName("extra")[0],a=document.getElementById("more");"block"==e.style.display?(e.style.display="none",a.innerHTML="Links"):(e.style.display="block",e.className="extra animated fadeIn",a.innerHTML="Links")}

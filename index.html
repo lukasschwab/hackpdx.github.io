@@ -1,43 +1,85 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="content-type" content="text/html;charset=utf-8">
-    <link rel="stylesheet" type="text/css" href="stylesheets/application.css">
-    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
-    <link rel="icon" href="/favicon.ico" type="image/x-icon">
-    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
-    <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-    <script src="javascripts/application.js"></script>
-    <script type="text/javascript" src="//use.typekit.net/khm0aik.js"></script>
-    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
-    <script src="./javascripts/readmore.js" type="text/javascript"></script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Lukas Schwab home page.">
+    <meta name="author" content="Lukas Schwab">
+
     <title>HackPDX</title>
-    <link rel="shortcut icon" href="images/p.ico"/>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="./img/face.ico"/>
+
+    <!-- Bootstrap core CSS -->
+    <link href="./bootstrap/css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="./bootstrap/css/cover.css" rel="stylesheet">
+
+    <script src="./bootstrap/js/ie-emulation-modes-warning.js"></script>
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="./bootstrapjs/ie10-viewport-bug-workaround.js"></script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <script src="./js/showlinks.js" type="text/javascript"></script> <!-- Show more, thanks to Colby Aley -->
+
   </head>
+
   <body>
-    <div class="container">
-      <h1 class="title">HackPDX(<span style="color:#FF851B">schools</span>)</h1>
-      <p class="intro">Portland's premier civic hackathon, bringing together software engineers and policymakers to change <span class="bold">education</span>.</p>
-      <p><span class="bold">Who & What</span> Professional developers gather to eat, chat, build projects, and do good. Our theme focuses on schools, primarily at a local level––help us prove that twelve hours can have an impact!</p>
-      <p><span class="bold">Why</span> HackPDX was dreamed up and put together by two high school students. Our theme is especially dear to us; we’re both passionately involved in tech and software development, but we’re tied to a system that sometimes lags behind that innovation. It was only natural to want to bring together the talent we see at meetups and internships to change that. <span class="extra">There’s no question that “STEM” is a buzzword in public education now. Technology in education is okay, but technology for education is still lacking. Many schools are still organized on outdated software, counterintuitive at best and byzantine at worst. We decided that when tech solutions get in the way of learning there’s a broken system to fix.<br>We’re results-driven. That’s why we’re bringing administrators and educators to the table: the projects you’ll create will have the potential to change lives for the better, and HackPDX is here to make that change happen.</span><a onclick="toggleExtra()" id="more">{read more}</a></p>
-      <p><span class="bold">When & Where</span> Big thanks to New Relic for lending us their amazing space! They’re at 111 SW 5th Ave #2800, nestled on the 29th floor of Portland’s tallest building. The event will run from 10:00 AM to 10:00 PM on August 30th, 2014.</p>
-      <footer>
-        <a href="https://twitter.com/hackpdx">twitter</a> &middot; <a href="https://www.facebook.com/events/564858496959759/">facebook</a> &middot; <a href="mailto:colby@aley.me,lukas.schwab@gmail.com">email</a> &middot; <a href="http://www.eventbrite.com/e/hackpdxschools-tickets-12260119347">eventbrite</a> &middot; <a target="_blank" href="https://www.google.com/calendar/event?action=TEMPLATE&tmeid=NG5jNjI0dHY1OGNnbGFhN2JlcXRjZnVuNGMgdjkyN2g5NTQxdHN2NG8wYTdlMWphN3VnbzBAZw&tmsrc=v927h9541tsv4o0a7e1ja7ugo0%40group.calendar.google.com">calendar</a>
-      </footer>
+    <div class="svgdiv">
+    <div class="site-wrapper">
+
+        <div class="site-wrapper-inner">
+
+          <div class="cover-container">
+
+            <!-- SOME HEADER ELEMENTS. CLEAN UP LATER? -->
+            <div class="clearfix">
+              <div class="inner">
+                <p class="abitsmaller"> </p>
+              </div>
+            </div>
+
+            <div class="inner cover">
+              <img class="profile-image" src="./img/steel.JPG" alt="A photo of Lukas Schwab">
+              <h1 class="cover-heading">HackPDX</h1>
+              <!-- <p class="lead">High school senior with a passion for photos in circles, good code, and good design. Based in PDX, OR, USA.</p> -->
+              <p class="lead">Portland's premier civic hackathon.</p>
+              <!-- <p class="lead">Keepin' it real. Keepin' it simple. Since 1997.</p> -->
+              <!-- <p class="lead">#disrupt</p> -->
+              <!-- TO SWITCH OUT TEXT: http://css-tricks.com/swapping-out-text-five-different-ways/ -->
+              <p class="lead">
+                <a href="https://docs.google.com/forms/d/1_2T26wlYtPbHiH3gzXL2AcPcsHudGBHTNhXnSRHL2g4/viewform?usp=send_form" class="btn btn-lg btn-default">Mailing List</a>
+                <a class="btn btn-lg btn-default" onclick="toggleExtra()">Social Media</a>
+              </p>
+              <div class = "extra">
+                <p class = "lead">
+                  <a href="http://www.github.com/lukasschwab" class="expanded">Facebook </a>
+                   &middot; <!-- Note that the spaces are key -->
+                  <a href="http://lnkd.in/bfuhrF9" class="expanded">Twitter</a>
+                </p>
+              </div>
+            </div>
+
+          </div> 
+
+      </div>
+      </div>
+
     </div>
-    <script type="text/javascript">
-      var _gauges = _gauges || [];
-      (function() {
-        var t   = document.createElement('script');
-        t.type  = 'text/javascript';
-        t.async = true;
-        t.id    = 'gauges-tracker';
-        t.setAttribute('data-site-id', '531b8d4ee32bb4497b0033d0');
-        t.src = '//secure.gaug.es/track.js';
-        var s = document.getElementsByTagName('script')[0];
-        s.parentNode.insertBefore(t, s);
-      })();
-    </script>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="./bootstrap/js/bootstrap.min.js"></script>
   </body>
 </html>
